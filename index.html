@@ -2,47 +2,47 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Make your own Spot It clone</title>
+        <title>Vytvořte si vlastní Dobble</title>
         <link rel="stylesheet" href="index.css" media="all" />
     </head>
     <body class="print3x5 per-row-3">
         <section id="intro" class="hide-for-print">
-            <h1>Make your own Spot It clone</h1>
-            <p class="hide" id="urlWarning"><strong>URL Provided content.</strong> The spot it game you are viewing is populated via options provided in the URL. This is not content provided by this site and we take no responsibility for what is contained.  This option is made available for sharing spot it games with others without saving data on the website itself.</p>
-            <p>Make your own <a href="http://www.amazon.com/gp/product/B0039S7NO6">Spot it</a> game with your own words or images. All the card logic taken from a blog post from <a href="http://radiganengineering.com/2013/01/spot-it-howd-they-do-that/">Radigan Engineering</a>.</p>
+            <h1>Vytvořte si vlastní Dobble</h1>
+            <p class="hide" id="urlWarning"><strong>Obsah skrze URL.</strong> Hra Dobble kterou vidíte je vytvořena pomocí odkazů vložených jako paramtery URL. Tento obsah není poskytován těmito stránkami a neneseme za něj žádnou odpovědnoust.  Tato volba umožňuje sdílet Dobble s ostatními aniž by bylonutné ukládat data na tyto stránky.</p>
+            <p>Vytvořte si vlastní <a href="http://dobble.cz/">Dobble</a> se slovy či obrázky dle vaší volby. Veškerá logika použít pro sestavení karet pochází z blogu <a href="http://radiganengineering.com/2013/01/spot-it-howd-they-do-that/">Radigan Engineering</a>.</p>
             <div class="displayOptions show-with-items hide-with-game">
-                <h2>Display Options</h2>
+                <h2>Možnosti vzhledu</h2>
                 <p>
-                    <strong>Set print size:</strong> <a href="#d" data-size="print3x5" class="active">3x5 (landscape)</a> 
-                    <a href="#d" data-size="print5x3">5x3 (portrait)</a> 
-                    <a href="#d" data-size="print4x6">4x6 (landscape)</a> 
-                    <a href="#d" data-size="print6x4">6x4 (portrait)</a>
-                    <a href="#d" data-size="print4x4">3.5x3.5 (square/circle)</a>
+                    <strong>Zvolte velikost tisku:</strong> <a href="#d" data-size="print3x5" class="active">3x5 (vodorovně)</a> 
+                    <a href="#d" data-size="print5x3">5x3 (na výšku)</a> 
+                    <a href="#d" data-size="print4x6">4x6 ((vodorovně)</a> 
+                    <a href="#d" data-size="print6x4">6x4 (na výšku)</a>
+                    <a href="#d" data-size="print4x4">3.5x3.5 (čtverec/kruh)</a>
                 </p>
                 <p>
-                    <span class="items-per-row"><strong>Items per row:</strong> <a href="#d" data-rowcount="2">2</a> <a href="#d" data-rowcount="3" class="active">3</a> <a href="#d" data-rowcount="4">4</a><br /></span>
+                    <span class="items-per-row"><strong>Věcí v sloupci:</strong> <a href="#d" data-rowcount="2">2</a> <a href="#d" data-rowcount="3" class="active">3</a> <a href="#d" data-rowcount="4">4</a><br /></span>
 
-                    <strong>Show labels:</strong> <label for="showvalues"><input type="checkbox" id="showvalues" /> Yes</label><br />
+                    <strong>Zobrazit popisky:</strong> <label for="showvalues"><input type="checkbox" id="showvalues" /> Yes</label><br />
                     
-                    <strong>Randomly rotate items:</strong> <label for="rotate"><input type="checkbox" id="rotate" /> Yes</label><br />
+                    <strong>Náhodně pootáčet:</strong> <label for="rotate"><input type="checkbox" id="rotate" /> Ano</label><br />
                     
-                    <strong>Big text (for site words):</strong> <label for="bigtext"><input type="checkbox" id="bigtext" /> Yes</label><br />
+                    <strong>Velký text (for site words):</strong> <label for="bigtext"><input type="checkbox" id="bigtext" /> Ano</label><br />
                     
-                    <strong>Colorize words (for site words):</strong> <label for="colorize"><input type="checkbox" id="colorize" /> Yes</label><br />
+                    <strong>Barevně (for site words):</strong> <label for="colorize"><input type="checkbox" id="colorize" /> Ano</label><br />
                 </p>
             </div>
             <p class="show-with-items hide-with-game">
-                <a href="#printing" class="expander">Show print instructions</a>
+                <a href="#printing" class="expander">Zobrazit návod k tisku</a>
             </p>
             <section id="printing" class="printInstructions hide">
-                <h2>Print Instructions</h2>
-                <p>Printing these on to cards is a little bit of a process.  We have gone through a lot of effort to make it so that you CAN print these directly to index cards to save you a lot of effort of cutting multiple cards on a single larger paper, but to print on cards you have to do a bit of the work.</p>
+                <h2>Návod k tisku</h2>
+                <p>Tisk na karty je trochu procesu. Stálo hodně úsilí, aby to bylo možné, abyste je mohli vytisknout přímo na indexové karty, abyste ušetřili spoustu úsilí při řezání více karet na jeden větší papír, ale tisk karet dá trochu práce.</p>
                 
-                <p>You have a few options for printing:</p>
+                <p>Máte několik možností jak tisknout:</p>
                 <ul>
-                    <li>Print on a larger sheet of paper and cut the cards out yourself</li>
-                    <li>Print on index cards where one card will print on each with no additional cutting.</li>
-                    <li>Save the print view of the index card version so that you can send it to a photo printer to print the cards</li>
+                    <li>Tisknout na větší listy papítu a z těch karty vystřihnout</li>
+                    <li>Tisknout na připravené kartičky bez nutnosti dalšího vystřihování.</li>
+                    <li>Uložte zobrazení tisku kartiček, abyste jej mohli odeslat na fotografickou tiskárnu a vytisknout karty</li>
                 </ul>
                 
                 <h3>Index card/photo printing</h3>
@@ -62,63 +62,63 @@
                 
             </section>
             <section id="game" class="show-with-items">
-                <h2>Play Spot It Game</h2>
-                <p>You can also play a game here online to see how fast you can get 10 matches. Click the item on either card that is the match.</p>
-                <p class="playgamewrapper hide-with-game"><a href="#d" id="playgame">Start game</a></p>
+                <h2>Hrát Dobble</h2>
+                <p>Můžete si Dobble zahrát také online a zjistit jak rychle najdete 10 párů. Klikněte na každou věc která je na kartách stejná.</p>
+                <p class="playgamewrapper hide-with-game"><a href="#d" id="playgame">Začít hru</a></p>
                 <div id="gamestuff" class="hide show-with-game">
-                    <p>Timer: <span id="timer"></span></p>
-                    <p>Num correct: <span class="num-correct"></span>/10</p>
-                    <p><a href="#d" class="quitgame">Quit game</a></p>
+                    <p>Čas: <span id="timer"></span></p>
+                    <p>Správně: <span class="num-correct"></span>/10</p>
+                    <p><a href="#d" class="quitgame">Konec hry</a></p>
                 </div>
             </section>
         </section>
         <div id="output" class="cards show-with-items"></div>
         
         <secion class="dataEntry hide-for-print hide-with-game">
-            <h2>Provide data</h2>
+            <h2>Vstuní data</h2>
             
             <textarea name="itemEntry" id="itemEntry"></textarea><br />
-            <button id="submit">Submit</button> <a href="" class="sharelink show-with-items">Link to this set</a>
+            <button id="submit">Odeslat</button> <a href="" class="sharelink show-with-items">Odkaz na tento balíček</a>
             
             <p>
-                <a href="#data-instructions" class="expander">Show instructions on how to provide data</a>
+                <a href="#data-instructions" class="expander">Zobrazit návod jak přidat obsah</a>
             </p>
             <div id="data-instructions" class="hide">
-                <p>In the text area above, enter the items you would like to be made into cards. The game only works with certain numbers of items:</p>
+                <p>Do textového pole výše, zadejte data ze kterých chcete vytvořit karty. Hra funguje jen s určitým množstvím položek:</p>
                 <ul>
-                    <li><strong>3 items</strong> - 2 items per card</li>
-                    <li><strong>7 items</strong> - 3 items per card</li>
-                    <li><strong>13 items</strong> - 4 items per card</li>
-                    <li><strong>31 items</strong> - 6 items per card</li>
-                    <li><strong>57 items</strong> - 8 items per card</li>
+                    <li><strong>3 položkx</strong> - 2 položky na kartu</li>
+                    <li><strong>7 položek</strong> - 3 položky na kartu</li>
+                    <li><strong>13 položek</strong> - 4 položky na kartu</li>
+                    <li><strong>31 položek</strong> - 6 položek na kartu</li>
+                    <li><strong>57 položek</strong> - 8 položek na kartu</li>
                 </ul>
-                <p>If you enter more or less than those numbers we will truncate your list down to the next lower number, except for below 2 where we won't be able to use it at all. I don't really understand the math/logic, so I am not sure why there aren't 5 and 7 items per card options.  I used what was made available in <a href="http://radiganengineering.com/2013/01/spot-it-howd-they-do-that/">this article</a>. If you know how to do 5 or 7, let me know.</p>
+                <p>Pokud zadáte více menbo méně položek než je uvedeno víše váš seznam bude zkrácen na nejblížžsí nižší možné číslo, kromě méně než 2 položek, v takovém případě není sestavení možné. Opravdu nerozumím matematice/logice, takže si nejsem jistý, proč neexistují verze s 5 a 7 položkami na jednu kartu. Prostě jsem použil co bylo <a href="http://radiganengineering.com/2013/01/spot-it-howd-they-do-that/">v tomto článku (Aj)</a>. Pokud víte jak vytvořit verzi s 5 nebo 7 polořkamy, dejte my vědět.</p>
                 
-                <p>Separate each item in the list by a return.  You can use words, or provide images using one of the options below.</p>
+                <p>Oddělte každou položku v seznamu entrem.  Můžete použít slova nebo obrázky jednou z níže uvedených možností.</p>
                 <section id="words">
-                    <h3>Adding Words</h3>
-                    <p>Add one work per line. Done.</p>
+                    <h3>Přidání slov</h3>
+                    <p>Napište jedno slovo na řádek. Hotovo.</p>
                 </section>
                 <section id="upload">
-                    <h3>Loading Images - Upload</h3>
+                    <h3>Načítání obrázků - Upload</h3>
                     
-                    <p>You can drag images anywhere on to this page and they will be used for your game. The images are NOT uploaded to our site, but are saved in your browser. Images are restricted to 100kb each. Any that are larger than 100kb will automatically be resized for you. Depending on the number and size of your images this can take a while. We encourage you to make smaller images before dropping them onto the page, but we will try to work with what you give us</p>
+                    <p>Můžete přetáhnout obrázky na tuto stránku a ty pak budou použity pro vaši hru. Obrázky NEJSOU nahrané na našich stránkách, ale jsou uloženy v prohlížeči. Obrazky jsou omezeny na 100 kb každý. Každý, který je větší než 100 kB, se automaticky zmenší. V závislosti na počtu a velikosti obrázků to může chvíli trvat. Doporučujeme vám, abyste předtím, než obrázky vložíte na stránku, vytvořili menší obrázky, ale budeme se snažit pracovat s tím, co nám dáte</p>
                     
-                    <p>After you add them to the page an interface will be added where you can remove them from your local storage at any time. The filename before the extention will be used as an optional label. So for <code>Mountain.jpg</code> the label would be <code>Mountain</code>. The reason for the 100kb limit is that browsers restrict how much total can be saved, and this is our attempt to keep you under that limit.</p>
+                    <p>Po přidání se zobrazí možnost vložené obrázk ykdykoli odebrat. Názvy obrázku je možné použít jako volitelné popisky. Takže pro soubor <code>Hora.jpg</code> bude popisek <code>Hora</code>. Limit 100 kb lje nastaven kvuli omezením prohlížečů na obsha který lze uložit, a limit je způsob jak se vejít do těchtoomezení.</p>
                     
-                    <p>If you upload photos, then you can not use the "Link to this set" option as those that you send links to will not have the images locally. You can not drag imgaes directly from another website, you have to get them on your computer first, and then drag them onto this page.</p>
+                    <p>Pokud obrázky nahrajete, nelze použít možnost "Odkaz na balíček" jedině že by příjemce měl k dispozici použité obrázky. Obrázky nelze přetáhnout přímo z jiného webu, je třeba je nejdříve stáhnout do vašho počítače, a následně přidat na stránku.</p>
                 </section>
                 
                 <section id="reference">
-                    <h3>Loading Images - URL Reference</h3>
-                    <p>If you provide URLs instead of words we will attempt to load those URLs as images. If your images are different aspect ratios (square, landscape, portrait) your cards will be difference sizes as each card is made up of a different mixture of sizes.  For best results, have all images be the same general aspect ratio.</p>
+                    <h3>Načítání obrázků - Odkaz URL</h3>
+                    <p>Pokud místo slov použijete odkazy URL pokusíme se je načíst jako obrázky. Pokud budou mít vaše obrázky rozdílný poměr stran (čtverec, naležato, na výšku) vaše karty budou mít různou velikost protože jartybudou tovřený různým poměry obrázků.  Pro ideální výsledek, použíjte obrázky se stejným poměrem stran.</p>
                     
-                    <p>You can optionally provide a label for images by adding a "," to the end of the image URL and then putting your label.  <code>http://path/to/image.jpg,label here</code></p>
+                    <p>Volitelně můžete přidat URL obrázkům popisky jejich napsáním za "," (čárku).  <code>http://cesta/k/obrazku.jpg,tady popisek</code></p>
                 </section>
                 
             </div>
             <p class="show-with-items">
-                <a href="#details" class="expander">Show card build details</a>
+                <a href="#details" class="expander">Zobrazit detali skládání karet (Aj)</a>
             </p>
             <section id="details" class="hide">
                 <h3>Details</h3>
@@ -142,24 +142,24 @@
             </section>
             <div class="setData">
                 <section id="demo" class="data-group">
-                    <h3>Demo Data</h3>
+                    <h3>Ukázková Data</h3>
                     <ul>
-                        <li><a href="#d" data-demo="words">Load small demo text</a></li>
-                        <li><a href="#d" data-demo="states">Load large demo text (US States)</a></li>
-                        <li><a href="#d" data-demo="kSiteWords">Load large demo text (Kindergarten Site Words)</a></li>
-                        <li> <a href="#d" data-demo="portraits">Load demo images (31 portrait)</a></li>
-                        <li> <a href="#d" data-demo="landscapes">Load demo images (57 landscape)</a></li>
+                        <li><a href="#d" data-demo="words">Načíst krátký ukázkový text</a></li>
+                        <li><a href="#d" data-demo="states">Načíst dlouhý ukázkový text (US States)</a></li>
+                        <li><a href="#d" data-demo="kSiteWords">Načíst dlouhý ukázkový text (Kindergarten Site Words)</a></li>
+                        <li> <a href="#d" data-demo="portraits">Náčíst ukázkové obrázky (31 na výšku)</a></li>
+                        <li> <a href="#d" data-demo="landscapes">Náčíst ukázkové obrázky (57 vodorovně)</a></li>
                     </ul>
                 </section>
                 
                 <section id="saves" class="data-group hide">
-                    <h3>Saved data</h3>
+                    <h3>Uložená data</h3>
                     
-                    <p>You can optionally save your data for later. This is only stored on your machine, nothing is saved on the website itself.</p>
+                    <p>Volitelně můžete data uložit na později. Budou uložena jen na vašem stroji, na stránku se nic nukládá.</p>
                     
-                    <a href="#d" class="save-it">Save currently entered data</a>
+                    <a href="#d" class="save-it">Uloži nyní načtená data</a>
                     
-                    <p>Load previously saved data by clicking its name.</p>
+                    <p>Načtěte předchozí data kliknutím na jejich název.</p>
                     <ul class="saves">
                         
                     </ul>
@@ -169,7 +169,7 @@
 
         </section>
         <p class=" hide-with-game">
-            <a href="#about" class="expander">Show information about the project</a>
+            <a href="#about" class="expander">Zobrazit informace projektu (Aj)</a>
         </p>
         <section id="about" class="hide-for-print hide">
             <h2>About this project</h2>
@@ -187,9 +187,9 @@
         </section>
         <div id="drop-box-overlay">
             <div class="message">
-            	<p class="instructions">Drop files anywhere to upload. Only .jpg, .gif and .png files are allowed.</p>
+            	<p class="instructions">Přetáhněte obrázky kamkoli. Lze vlkádat pouze soubory .jpg, .gif nebo .png.</p>
             	<p class="processing hide">
-                    Processing file:<br />
+                    Zpraocvávám soubor:<br />
                     <img src="" class="currentlyProcessing" />
                 </p>
             </div>
