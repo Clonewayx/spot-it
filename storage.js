@@ -1,6 +1,6 @@
 // stuff for saving data to localstorage
 function saveData(){
-    var name = window.prompt("What should we name this set of data?");
+    var name = window.prompt("Jako pojemnovat tento balíček dat?");
     // var name = "test";
     var curData = {};
     curData[name] = parseEnteredItems(itemEntry);
@@ -137,7 +137,7 @@ function removeLocal(key){
 }
 document.querySelector('.delete-all-local').addEventListener('click',function(event){
     event.preventDefault();
-    if(confirm('Are you sure you want to delete all images?\nYou will need to re-upload them to get them back.')){
+    if(confirm('Opravdu chcete smazat všechny obrázky?\nBudete je muset nahrát znovu pokud je budete chtít zpět.')){
         for(var key in localStorage) {
             // console.debug(key,localStorage[key]);
             if(key.indexOf('data') === 0){
