@@ -1,6 +1,7 @@
-# spot-it
-An attempt at making a spot it like game where you can provide your own text or images
+# Dobble (spot-it)
+## Překlad [původního projektu](https://github.com/aaronbarker/spot-it) od [Aarona Barkera](https://github.com/aaronbarker)
+Pokus o vytvoření podobné hry, kde můžete zadat vlastní text nebo obrázky
 
-This is pretty quick and dirty (ok, quick === a whole weekend). I played the spot-it game and thought it would be fun to use my own images, family images, etc. I found a few Stack Overflow articles talking about the logic, but it was all way beyond me.  Found another site that listed out the results of the confusing logic as to how many items were needed, how many cards would be as a result, and what items went on what cards.  I figured I could set up some logic to output that to a page. That became a quick and dirty game, then dynamically entereing content, then saving content, etc.
+Docela rychlý a nupravený projekt (ok, rychlý === celý víkend). Někde jsme hru hrál a napadlo mě, že by bylo zábavné používat vlastní obrázky. Našel jsem několik článků na Stack Overflow, které mluví o logice, ale bylo to úplně mimo mě. Pak jsem našel stránku která uváděla výsledky zmatené logiky, kolik položek bylo potřeba, kolik karet by bylo výsledkem a jaké položky dát na jakou kartu. Zjistil jsem, že mohu nastavit nějakou logiku, abych to vyvedl na stránku. To se stalo rychlou a neupravenou hrou, později s dynamickým vkládáním obsahu, uložením obsahu atd.
 
-I don't pretend to think this code is bulletproof, good, or otherwise.  But it serves its purpose in that it takes data and creates cards for printing out.  Hopefully others find it useful as well.
+Nepředstírám, že tento kód je neprůstřelný, dobrý nebo cokoli jiného. Slouží však ke svému účelu v tom, že přebírá data a vytváří karty pro tisk. Doufejme, že ostatní to také využijí.
