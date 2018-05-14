@@ -1,10 +1,10 @@
 // sets of demo data
 
-var words = ["Aardvark","Buffalo","Cow","Doc","Elephant","Fox","Gopher","Hawk","Ibex","Joey","Kangaroo","Lion","Mouse"]; // 13 words (good)
+var words = ["Pásovec","Bizo","Kráva","Králík","Slon","Liška","Kůň","Sokol","Bažant","Tučňák","Klokan","Lev","Myš"]; // 13 words (good)
 
 var states = ['Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','District Of Columbia','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming'];
 
-var kSiteWords = ['all', 'am', 'are', 'at', 'ate', 'be', 'black', 'brown', 'but', 'came', 'did', 'do', 'eat', 'four', 'get', 'good', 'have', 'he', 'into', 'like', 'must', 'new', 'no', 'now', 'on', 'our', 'out', 'please', 'pretty', 'ran', 'ride', 'saw', 'say', 'she', 'so', 'soon', 'that', 'there', 'they', 'this', 'too', 'under', 'want', 'was', 'well', 'went', 'what', 'white', 'who', 'will', 'with', 'yes'];
+var kSiteWords = ['všechno', 'já', 'jsme', 've', 'jíst', 'být', 'černá', 'hnědá', 'ale', 'jít', 'dělat', 'mýt', 'jídlo', 'čtyři', 'dostat', 'dobrý', 'dát', 'on', 'do', 'rád', 'muset', 'teď', 'ne', 'včera', 'dnes', 'náš', 'ven', 'prosím', 'hezký', 'běh', 'jezdit', 'vidět', 'říct', 'ona', 'tudíž', 'později', 'to', 'tam', 'oni', 'tohle', 'také', 'pod', 'chtít', 'zítra', 'dobře', 'chodit', 'co', 'bílá', 'kdo', 'začít', 's', 'ano'];
 
 
 // landscapes
